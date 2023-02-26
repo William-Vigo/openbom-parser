@@ -8,11 +8,11 @@ export excel sheet of parts from openbom only of Type Part
 ![alt text](./images/openbom-excel-file-example.png)
 
 change headers:
-Name -> Label
-Quantity -> Qty
-Width (in) -> Width
-Length (in) -> length
-Height (in) -> Material
+Name -> Label  
+Quantity -> Qty  
+Width (in) -> Width  
+Length (in) -> length  
+Height (in) -> Material  
 
 remove irrelavent rows and columns
 ![alt text](./images/cleaned-up-openbom-excel.png)
