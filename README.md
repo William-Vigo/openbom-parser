@@ -2,17 +2,11 @@
 
 Steps to run
 
-before exporting, change values from fraction to decimal and remove any assemply types
+before exporting, **change values from fraction to decimal and remove any assemply types**
 
 export excel sheet of parts from openbom only of Type Part
 ![alt text](./images/openbom-excel-file-example.png)
 
-change headers:
-Name -> Label  
-Quantity -> Qty  
-Width (in) -> Width  
-Length (in) -> length  
-Height (in) -> Material  
 
 remove irrelavent rows and columns
 ![alt text](./images/cleaned-up-openbom-excel.png)
@@ -31,4 +25,17 @@ click on green button to run script, this should put all the smallest values in 
 
 export file as csv
 
-go to openbom and import csv file
+
+# Steps to import into cutlist FX
+Copy CSV formatted table into clip board
+![alt text](./images/excel-copy.png)
+
+open cutlist FX
+
+under Edit drop down menu, click on `Import parts from clipboard`
+![alt text](./images/cutlist-paste.png)
+
+map the the csv headers to the cutlist fields, then hit finish
+![alt text](./images/cutlist-mapping.png)
+
+make sure to add material type once everything is imported!
